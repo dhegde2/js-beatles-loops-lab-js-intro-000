@@ -7,7 +7,7 @@ if(array1.length > array2.length){
   a=array2.length;
 }
 for(let i=0;i<a;i++){
-array3=array1[i] + array2[i];
+songs=array1[i] + array2[i];
 }
   return songs;
 }
