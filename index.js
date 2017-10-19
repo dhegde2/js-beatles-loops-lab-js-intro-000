@@ -17,13 +17,13 @@ let s = array[i];
 let exclamation = "!!!"
 array[i] = s.concat(exclamation);
 }
-return array; 
+return array;
 }
 function iLoveTheBeatles(number){
 let array = [];
 do{
 array.push('I love the Beatles');
-++number; 
+++number;
 } while(number<15)
 return array; 
 }
