@@ -1,7 +1,8 @@
 function theBeatlesPlay(array1, array2){
 let songs = [];
 for(let i=0;i<array1.length;i++){
-songs=array1[i] + array2[i];
+let s = 'array[i] plays array[2]'; 
+songs[i] = s; 
 }
   return songs;
 }
