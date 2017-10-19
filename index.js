@@ -11,11 +11,11 @@ songs=array1[i] + array2[i];
 }
   return songs;
 }
-function johnLennonFacts(array){ 
+function johnLennonFacts(array){
 for(let i=0;i<array.length;i++){
-let s = array[i]; 
+let s = array[i];
 let exclamation = "!!!"
-array[i] = s.concat(exclamation); 
+array[i] = s.concat(exclamation);
 }
 return array; 
 }
